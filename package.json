@@ -1,15 +1,17 @@
 {
+  "homepage": "https://joshua-75295.github.io/finance_management/",
   "name": "finance_management",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://github.com/Joshua-75295/finance_management",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
